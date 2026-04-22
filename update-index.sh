@@ -50,7 +50,9 @@ get_classroom_link() {
   local link
   link=$(echo "$readme" | grep -oP 'https://classroom\.github\.com/a/[a-zA-Z0-9_-]+' | head -1)
 
-  if [ -n "$link" ]; then
+  # Ignore le placeholder XXXXXX (lien par défaut de create-tp.sh,
+  # pas encore remplacé par le vrai slug Classroom).
+  if [ -n "$link" ] && [[ "$link" != *XXXXXX* ]]; then
     echo "$link"
   else
     return 1
