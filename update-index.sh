@@ -115,6 +115,11 @@ cat > README.md << HEREDOC
 
 * **Responsable :** [Sébastien Nedjar](mailto:sebastien.nedjar@univ-amu.fr)
 
+* **Enseignantes :**
+
+  * [Sophie Nabitz](mailto:sophie.nabitz@univ-avignon.fr)
+  * [Leïla Sakli Miled](mailto:leila.SAKLI@univ-amu.fr)
+
 * **Besoin d'aide ?** [Email](mailto:sebastien.nedjar@univ-amu.fr) pour toute question
 
 ---

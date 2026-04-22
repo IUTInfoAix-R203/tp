@@ -6,6 +6,11 @@
 
 * **Responsable :** [Sébastien Nedjar](mailto:sebastien.nedjar@univ-amu.fr)
 
+* **Enseignantes :**
+
+  * [Sophie Nabitz](mailto:sophie.nabitz@univ-avignon.fr)
+  * [Leïla Sakli Miled](mailto:leila.SAKLI@univ-amu.fr)
+
 * **Besoin d'aide ?** [Email](mailto:sebastien.nedjar@univ-amu.fr) pour toute question
 
 ---
@@ -78,5 +83,5 @@ Le TP1 Git ne compte pas dans la note : c'est un TP de mise à niveau obligatoir
 
 ---
 
-<!-- Dernière mise à jour : 2026-04-22T13:43:57+02:00 -->
+<!-- Dernière mise à jour : 2026-04-22T13:48:23+02:00 -->
 *IUT d'Aix-Marseille - Département Informatique - 2025-2026*
