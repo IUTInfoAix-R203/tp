@@ -33,7 +33,7 @@ Chaque semaine, un nouveau TP. Cliquez sur le lien Classroom correspondant pour 
 | 1 | **TP1 - Git avancé et bonnes pratiques** | Rebase, cherry-pick, PR + code review, Conventional Commits | [Accepter le TP1](https://classroom.github.com/a/yiTMNY-m) |
 | 2 | **TP2 - TDD** | Cycle RED-GREEN-REFACTOR, fake-it, triangulation, approval testing | [Accepter le TP2](https://classroom.github.com/a/HP_p0YPk) |
 | 3 | **TP3 - Kata et pair programming** | Driver/navigator, kata Bowling / Tennis / Yahtzee | [Accepter le TP3](https://classroom.github.com/a/eUEckVBO) |
-| 4 | **TP4 - Refactoring** | Code smells, refactorings de Fowler, characterization tests, Gilded Rose | *à venir* |
+| 4 | **TP4 - Refactoring** | Code smells, refactorings de Fowler, characterization tests, Gilded Rose | [Accepter le TP4](https://classroom.github.com/a/ApDTiHdo) |
 
 > [!NOTE]
 > Le **TP1 est un TP de mise à niveau non noté**. Il vise à corriger les mauvaises habitudes Git acquises au S1 et à introduire les concepts avancés que vous utiliserez toute la suite. Les TP2, TP3 et TP4 sont **autograndés** (note sur 100 points calculée à chaque push).
@@ -83,5 +83,5 @@ Le TP1 Git ne compte pas dans la note : c'est un TP de mise à niveau obligatoir
 
 ---
 
-<!-- Dernière mise à jour : 2026-04-22T14:57:02+02:00 -->
+<!-- Dernière mise à jour : 2026-04-22T15:01:37+02:00 -->
 *IUT d'Aix-Marseille - Département Informatique - 2025-2026*
