@@ -44,8 +44,8 @@ Chaque semaine, un nouveau TP. Cliquez sur le lien Classroom correspondant pour 
 
 | CM | Thème | Slides |
 |---|---|---|
-| CM1 | Artisanat logiciel, qualité, Git avancé | *à venir* |
-| CM2 | TDD, refactoring, code smells, Clean Code | *à venir* |
+| CM1 | Artisanat logiciel, qualité, Git avancé | [Voir les slides](https://iutinfoaix-r203.github.io/cours/cm1-artisanat-et-git.html) |
+| CM2 | TDD, refactoring, code smells, Clean Code | [Voir les slides](https://iutinfoaix-r203.github.io/cours/cm2-tdd-refactoring.html) |
 
 Deux démos **en direct** en début de séance TP complètent les CM : kata live en pair programming (avant le TP3) et refactoring IDE (avant le TP4).
 
@@ -83,5 +83,5 @@ Le TP1 Git ne compte pas dans la note : c'est un TP de mise à niveau obligatoir
 
 ---
 
-<!-- Dernière mise à jour : 2026-04-22T15:01:37+02:00 -->
+<!-- Dernière mise à jour : 2026-04-22T15:15:58+02:00 -->
 *IUT d'Aix-Marseille - Département Informatique - 2025-2026*
