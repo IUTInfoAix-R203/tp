@@ -3,7 +3,8 @@
 # liens Classroom depuis chaque repo IUTInfoAix-R203/tpN.
 #
 # Usage : ./update-index.sh
-# Nécessite : gh (GitHub CLI) authentifié
+# Nécessite : gh (GitHub CLI) authentifié, python3, base64, grep (avec -P),
+#             curl
 #
 # NOTE : ce script bypasse le piège de la redirection 301 vers
 # IUTInfoAix-R203-archive/tpN en vérifiant explicitement que le
@@ -109,11 +110,11 @@ done
 
 # Générer le README complet
 cat > README.md << HEREDOC
-# <img src="https://raw.githubusercontent.com/IUTInfoAix-R510/Syllabus/main/assets/logo.png" alt="class logo" class="logo"/> R2.03 - Qualité de développement
+# <img src=".github/assets/logo.png" alt="class logo" class="logo" width="120"/> R2.03 - Qualité de développement
 
 ### IUT d'Aix-Marseille - Département Informatique Aix-en-Provence
 
-* **Ressource :** [R2.03](https://cache.media.enseignementsup-recherche.gouv.fr/file/SPE4-MESRI-17-6-2021/35/5/Annexe_17_INFO_BUT_annee_1_1411355.pdf)
+* **Ressource :** [Syllabus R2.03](https://github.com/IUTInfoAix-R203/syllabus) (compétences, calendrier, évaluations, ressources détaillées)
 
 * **Responsable :** [Sébastien Nedjar](mailto:sebastien.nedjar@univ-amu.fr)
 
@@ -142,7 +143,7 @@ Chaque semaine, un nouveau TP. Cliquez sur le lien Classroom correspondant pour 
 $TP_TABLE
 
 > [!NOTE]
-> Le **TP1 est un TP de mise à niveau non noté**. Il vise à corriger les mauvaises habitudes Git acquises au S1 et à introduire les concepts avancés que vous utiliserez toute la suite. Les TP2, TP3 et TP4 sont **autograndés** (note sur 100 points calculée à chaque push).
+> Le **TP1 est un TP de mise à niveau non noté**. Il vise à corriger les mauvaises habitudes Git acquises au S1 et à introduire les concepts avancés que vous utiliserez toute la suite. Les TP2, TP3 et TP4 sont **autogradés** (note sur 100 points calculée à chaque push).
 
 > [!WARNING]
 > **Erreur "Repository Access Issue" après avoir accepté un devoir ?**
