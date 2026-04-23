@@ -116,10 +116,9 @@ cat > README.md << HEREDOC
 
 * **Ressource :** [Syllabus R2.03](https://github.com/IUTInfoAix-R203/syllabus) (compétences, calendrier, évaluations, ressources détaillées)
 
-* **Responsable :** [Sébastien Nedjar](mailto:sebastien.nedjar@univ-amu.fr)
+* **Équipe pédagogique :**
 
-* **Enseignantes :**
-
+  * [Sébastien Nedjar](mailto:sebastien.nedjar@univ-amu.fr) - responsable du module
   * [Sophie Nabitz](mailto:sophie.nabitz@univ-avignon.fr)
   * [Leïla Sakli Miled](mailto:leila.SAKLI@univ-amu.fr)
 
@@ -158,7 +157,7 @@ $TP_TABLE
 >    (remplacez \`N\` par le numéro du TP et \`VOTRE_LOGIN_GITHUB\` par votre identifiant GitHub)
 > 2. Ou parcourez la liste de vos dépôts sur <https://github.com/IUTInfoAix-R203-2026> - vous devriez y voir le vôtre.
 >
-> Si vraiment vous ne trouvez pas, contactez votre enseignant·e, il/elle pourra vérifier la création côté admin.
+> Si vraiment vous ne trouvez pas, contactez votre enseignant·e : cette personne pourra vérifier la création côté admin.
 
 ---
 

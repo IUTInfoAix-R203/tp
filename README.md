@@ -4,10 +4,9 @@
 
 * **Ressource :** [Syllabus R2.03](https://github.com/IUTInfoAix-R203/syllabus) (compétences, calendrier, évaluations, ressources détaillées)
 
-* **Responsable :** [Sébastien Nedjar](mailto:sebastien.nedjar@univ-amu.fr)
+* **Équipe pédagogique :**
 
-* **Enseignantes :**
-
+  * [Sébastien Nedjar](mailto:sebastien.nedjar@univ-amu.fr) - responsable du module
   * [Sophie Nabitz](mailto:sophie.nabitz@univ-avignon.fr)
   * [Leïla Sakli Miled](mailto:leila.SAKLI@univ-amu.fr)
 
@@ -51,7 +50,7 @@ Chaque semaine, un nouveau TP. Cliquez sur le lien Classroom correspondant pour 
 >    (remplacez `N` par le numéro du TP et `VOTRE_LOGIN_GITHUB` par votre identifiant GitHub)
 > 2. Ou parcourez la liste de vos dépôts sur <https://github.com/IUTInfoAix-R203-2026> - vous devriez y voir le vôtre.
 >
-> Si vraiment vous ne trouvez pas, contactez votre enseignant·e, il/elle pourra vérifier la création côté admin.
+> Si vraiment vous ne trouvez pas, contactez votre enseignant·e : cette personne pourra vérifier la création côté admin.
 
 ---
 
@@ -98,5 +97,5 @@ Le TP1 Git ne compte pas dans la note : c'est un TP de mise à niveau obligatoir
 
 ---
 
-<!-- Dernière mise à jour : 2026-04-23T11:59:04+02:00 -->
+<!-- Dernière mise à jour : 2026-04-23T12:02:37+02:00 -->
 *IUT d'Aix-Marseille - Département Informatique - 2025-2026*
