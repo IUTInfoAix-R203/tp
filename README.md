@@ -35,7 +35,7 @@ Chaque semaine, un nouveau TP. Cliquez sur le lien Classroom correspondant pour 
 | 4 | **TP4 - Refactoring** | Code smells, refactorings de Fowler, characterization tests, Gilded Rose | [Accepter le TP4](https://classroom.github.com/a/ApDTiHdo) |
 
 > [!NOTE]
-> Le **TP1 est un TP de mise à niveau non noté**. Il vise à corriger les mauvaises habitudes Git acquises au S1 et à introduire les concepts avancés que vous utiliserez toute la suite. Les TP2, TP3 et TP4 sont **autogradés** (note sur 100 points calculée à chaque push).
+> Le **TP1 est un TP de mise à niveau non noté**. Il vise à corriger les mauvaises habitudes Git acquises au S1 et à introduire les concepts avancés que vous utiliserez toute la suite. Les TP2, TP3 et TP4 sont **autogradés** (score sur 1000 points calculé à chaque push ; divisez par 50 pour le ramener à la note sur 20).
 
 > [!WARNING]
 > **Erreur "Repository Access Issue" après avoir accepté un devoir ?**
@@ -80,7 +80,7 @@ Deux démos **en direct** en début de séance TP complètent les CM : kata live
 
 ## Évaluation
 
-- **CC1** : moyenne des notes autograding des TP2 / TP3 / TP4 (sur 100 chacun, votre score augmente à chaque test qui passe) - coeff. 10
+- **CC1** : moyenne des notes autograding des TP2 / TP3 / TP4 (score affiché sur 1000 par Classroom, ramené sur 20 au bulletin en divisant par 50 ; votre score augmente à chaque test qui passe) - coeff. 10
 - **CC2** : participation, qualité des revues de PR, régularité des commits - coeff. 10
 - **CC3** : mini-kata TDD sur feuille (2h, sans outil d'assistance) - coeff. 40
 
@@ -97,5 +97,5 @@ Le TP1 Git ne compte pas dans la note : c'est un TP de mise à niveau obligatoir
 
 ---
 
-<!-- Dernière mise à jour : 2026-04-23T12:02:37+02:00 -->
+<!-- Dernière mise à jour : 2026-04-23T13:23:14+02:00 -->
 *IUT d'Aix-Marseille - Département Informatique - 2025-2026*
