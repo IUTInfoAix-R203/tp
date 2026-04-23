@@ -1,4 +1,4 @@
-# <img src="./assets/logo.png" alt="class logo" class="logo" width="120"/> R2.03 - Qualité de développement
+# <img src=".github/assets/logo.png" alt="class logo" class="logo" width="120"/> R2.03 - Qualité de développement
 
 ### IUT d'Aix-Marseille - Département Informatique Aix-en-Provence
 
