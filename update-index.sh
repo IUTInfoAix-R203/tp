@@ -15,12 +15,15 @@ set -euo pipefail
 ORG="IUTInfoAix-R203"
 COURS_URL="https://iutinfoaix-r203.github.io/cours"
 
-# Configuration des TP : numéro|titre|thème|semaine
+# Configuration des TP : numéro|titre|thème|répartition|status
+# status = published (lien Classroom exposé aux étudiants)
+# status = draft      (affiché "à venir" même si un lien Classroom
+#                      existe dans le repo - utile pendant la rédaction)
 TPS=(
-  "1|Git avancé et bonnes pratiques|Rebase, cherry-pick, PR + code review, Conventional Commits|1"
-  "2|TDD|Cycle RED-GREEN-REFACTOR, fake-it, triangulation, approval testing|2"
-  "3|Kata et pair programming|Driver/navigator, kata Bowling / Tennis / Yahtzee|3"
-  "4|Refactoring|Code smells, refactorings de Fowler, characterization tests, Gilded Rose|4"
+  "1|Git avancé et bonnes pratiques|Rebase, cherry-pick, PR + code review, Conventional Commits|s2 (2 h)|published"
+  "2|TDD|Cycle RED-GREEN-REFACTOR, fake-it, triangulation, approval testing|s2 (6 h)|published"
+  "3|Kata et pair programming|Driver/navigator, kata Bowling / Tennis / Yahtzee|s3 (4 h)|published"
+  "4|Refactoring|Code smells, refactorings de Fowler, characterization tests, Gilded Rose|s4 (4 h)|published"
 )
 
 # Configuration des CM : numéro|titre|slug du fichier
@@ -69,23 +72,29 @@ check_cm_exists() {
 echo "Génération de l'index des TP..."
 
 # Construire la table des TP
-TP_TABLE="| Semaine | TP | Thème | Lien Classroom |
+TP_TABLE="| Répartition | TP | Thème | Accès |
 |---|---|---|---|"
 
 for tp_config in "${TPS[@]}"; do
-  IFS='|' read -r num titre theme semaine <<< "$tp_config"
+  IFS='|' read -r num titre theme repartition status <<< "$tp_config"
   repo="tp$num"
-  echo -n "  TP$num ($titre)... "
+  echo -n "  TP$num ($titre) [$status]... "
 
-  link=$(get_classroom_link "$repo" 2>/dev/null || true)
-  if [ -n "$link" ]; then
-    TP_TABLE="$TP_TABLE
-| $semaine | **TP$num - $titre** | $theme | [Accepter le TP$num]($link) |"
-    echo "OK ($link)"
+  if [ "$status" = "published" ]; then
+    link=$(get_classroom_link "$repo" 2>/dev/null || true)
+    if [ -n "$link" ]; then
+      TP_TABLE="$TP_TABLE
+| $repartition | **TP$num - $titre** | $theme | [Accepter le TP$num]($link) |"
+      echo "OK ($link)"
+    else
+      TP_TABLE="$TP_TABLE
+| $repartition | **TP$num - $titre** | $theme | *lien manquant* |"
+      echo "ERREUR : status=published mais aucun lien Classroom trouvé"
+    fi
   else
     TP_TABLE="$TP_TABLE
-| $semaine | **TP$num - $titre** | $theme | *à venir* |"
-    echo "pas encore publié"
+| $repartition | **TP$num - $titre** | $theme | *à venir* |"
+    echo "draft (lien non exposé)"
   fi
 done
 
@@ -149,15 +158,15 @@ $TP_TABLE
 >
 > Il arrive que Classroom affiche l'écran *"You no longer have access to your assignment repository. Contact your teacher for support"* au lieu de vous rediriger vers votre dépôt. **Pas de panique** : votre dépôt **a bien été créé**, c'est juste la redirection qui a échoué.
 >
-> Pour le retrouver :
-> 1. Ouvrez directement votre dépôt à l'adresse :
+> Marche à suivre :
+> 1. **Vérifiez votre boîte mail** : au moment de l'acceptation du devoir, GitHub vous envoie une invitation à rejoindre le dépôt. Accepter cette invitation débloque souvent l'accès.
+> 2. Si vous n'avez pas reçu cet email, ouvrez directement votre dépôt à l'adresse :
 >    \`\`\`
 >    https://github.com/IUTInfoAix-R203-2026/tpN-VOTRE_LOGIN_GITHUB
 >    \`\`\`
 >    (remplacez \`N\` par le numéro du TP et \`VOTRE_LOGIN_GITHUB\` par votre identifiant GitHub)
-> 2. Ou parcourez la liste de vos dépôts sur <https://github.com/IUTInfoAix-R203-2026> - vous devriez y voir le vôtre.
->
-> Si vraiment vous ne trouvez pas, contactez votre enseignant·e : cette personne pourra vérifier la création côté admin.
+> 3. Ou parcourez la liste de vos dépôts sur <https://github.com/IUTInfoAix-R203-2026> - vous devriez y voir le vôtre.
+> 4. Si rien de tout ça ne débloque la situation, demandez à l'équipe pédagogique de vous attribuer manuellement les droits en écriture sur votre dépôt.
 
 ---
 
