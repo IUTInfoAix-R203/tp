@@ -91,11 +91,11 @@ Le TP1 Git ne compte pas dans la note : c'est un TP de mise à niveau obligatoir
 ## Environnement technique
 
 - **Java 25**
-- **Maven** (via le wrapper `./mvnw` - aucune installation nécessaire)
+- **Apache Maven 3.9.14 via Maven Wrapper** (`./mvnw` fourni, aucune installation nécessaire)
 - **GitHub Codespaces** (environnement de développement dans le navigateur)
 - **JUnit Jupiter 6** + **AssertJ** + **Mockito** + **ApprovalTests** (tests automatiques)
 
 ---
 
-<!-- Dernière mise à jour : 2026-04-24T19:53:06+02:00 -->
+<!-- Dernière mise à jour : 2026-04-24T19:54:22+02:00 -->
 *IUT d'Aix-Marseille - Département Informatique - 2025-2026*

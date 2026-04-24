@@ -204,7 +204,7 @@ Le TP1 Git ne compte pas dans la note : c'est un TP de mise à niveau obligatoir
 ## Environnement technique
 
 - **Java 25**
-- **Maven** (via le wrapper \`./mvnw\` - aucune installation nécessaire)
+- **Apache Maven 3.9.14 via Maven Wrapper** (\`./mvnw\` fourni, aucune installation nécessaire)
 - **GitHub Codespaces** (environnement de développement dans le navigateur)
 - **JUnit Jupiter 6** + **AssertJ** + **Mockito** + **ApprovalTests** (tests automatiques)
 
