@@ -153,6 +153,9 @@ $TP_TABLE
 > [!NOTE]
 > Le **TP1 est un TP de mise à niveau non noté**. Il vise à corriger les mauvaises habitudes Git acquises au S1 et à introduire les concepts avancés que vous utiliserez toute la suite. Les TP2, TP3 et TP4 sont **autogradés** (score sur 1000 points calculé à chaque push ; divisez par 50 pour le ramener à la note sur 20).
 
+> [!IMPORTANT]
+> Le **TP3 est à accepter en binôme** : c'est un *group assignment* Classroom. Mettez-vous d'accord sur votre binôme **avant** de cliquer sur le lien. Le premier du binôme crée une équipe (avec un nom explicite, par ex. \`binome-alice-bob\`), le second la rejoint. Un seul dépôt partagé est créé, les deux membres ont l'accès push, et l'autograding remonte la note pour les deux.
+
 > [!WARNING]
 > **Erreur "Repository Access Issue" après avoir accepté un devoir ?**
 >
